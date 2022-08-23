@@ -1,0 +1,17 @@
+[
+    {
+        "name": "数值计算",
+        "icon": "img/NumberCalculate.png",
+        "introduction": "给你一个数字，你需要推断出它的计算组合。"
+    },
+    {
+        "name": "拆分2048",
+        "icon": "img/Split2048.png",
+        "introduction": "把数字方块拆分到最小"
+    },
+    {
+        "name": "记忆卡牌",
+        "icon": "img/MemoryCard.png",
+        "introduction": "考验你记忆力的卡牌消除游戏"
+    }
+]

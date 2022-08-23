@@ -1,0 +1,17 @@
+[
+    {
+        "name": "空中棒球",
+        "icon": "img/AirBaseball.png",
+        "introduction": "将棒球击向对手，运用一些技巧阻止对手回击棒球，同时也做好防守。"
+    },
+    {
+        "name": "动物战争",
+        "icon": "img/AnimalWars.png",
+        "introduction": "一个弱肉强食的动物世界"
+    },
+    {
+        "name": "小猫钓鱼",
+        "icon": "img/KittenFishing.png",
+        "introduction": "收集卡牌获取更高的分数来获得胜利"
+    }
+]

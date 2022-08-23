@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隐私政策</title>
+    <script>
+        // 当前支持的语言环境
+        let languageList = [
+            {
+                "name": "English",
+                "value": "en-US",
+                "title": "Language"
+            },
+            {
+                "name": "中文",
+                "value": "zh-CN",
+                "title": "语言"
+            }
+        ]
+        // 数据源
+        var model = {};
+
+        window.onload = function () {
+            // 判断参数是否带语言
+            var urlParams = new URLSearchParams(window.location.search);
+            var language = urlParams.get('language');
+            if (language == null) {
+                // 获取浏览器的首选语言
+                language = navigator.language || navigator.userLanguage;
+            }
+            // 从languageList中查找，没有找到，则使用英文
+            const foundValue = languageList.find(item => item.value === language);
+            if (!foundValue) {
+                language = "en-US";
+            }
+            document.getElementById('languageTitle').innerText = foundValue ? foundValue.title : "Language";
+            document.getElementById('languageSelect').innerHTML = languageList.map(item => {
+                return `<option value="${item.value}" ${item.value === language ? 'selected' : ''}>${item.name}</option>`;
+            }).join('');
+
+            fetch("/js/privacy" + language + '.json?t=' + +new Date().getTime())
+                .then(response => response.json())
+                .then(data => {
+                    // 修改网页标题
+                    document.title = data.title;
+                    // 填充数据
+                    document.getElementById('preface').innerText = data.preface;
+
+                    let contentList = document.getElementById('contentList')
+                    for (const item in data.contentList) {
+                        let model = data.contentList[item];
+
+                        if (model.title) {
+                            contentList.innerHTML += `<div class="title">${model.title}</div>`;
+                        }
+
+                        if (model.content) {
+                            contentList.innerHTML += `<div class="content">${model.content}</div>`;
+                        }
+
+                        if (model.list) {
+                            contentList.innerHTML += `<div class="content">${model.list.map(item => {
+                                return `<li>${item}</li>`;
+                            }).join('')}</div>`;
+                        }
+                    }
+
+                    document.getElementById('update').innerHTML = data.update;
+                })
+                .catch(error => console.error('Error fetching data:', error));
+
+            // 如果需要，你也可以获取一个包含所有接受语言的数组
+            // var languages = navigator.languages;
+            // if (languages) {
+            //     console.log('All Accepted Languages:', languages);
+            // }
+        };
+    </script>
+    <style>
+        body {
+            font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            width: 90%;
+            margin: 1rem auto 1rem;
+            background-color: white;
+            color: black;
+        }
+
+        /* 深色模式的样式 */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: black;
+                color: white;
+            }
+        }
+
+        .language {
+            width: calc(100% - 1rem);
+            display: inline-flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .title {
+            margin-top: 1rem;
+            font-weight: bold;
+            letter-spacing: .1rem;
+            text-indent: 2.3em;
+            font-size: 1rem;
+        }
+
+        .content {
+            letter-spacing: .1rem;
+            text-indent: 2.3em;
+            font-size: 0.8rem;
+        }
+
+        .custom-select {
+            position: relative;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .custom-select select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            width: 100%;
+            height: 100%;
+            padding: 0 35px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #333;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .custom-select::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6px 4px 0 4px;
+            border-color: #333 transparent transparent transparent;
+            pointer-events: none;
+        }
+
+        .custom-select:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="language">
+        <div id="languageTitle"></div>
+        <div class="custom-select">
+            <select id="languageSelect"></select>
+        </div>
+    </div>
+    <div id="preface" class="title"></div>
+    <div id="contentList"></div>
+    <div class="language" style="text-align: right;">
+        <div id="update"></div>
+    </div>
+</body>
+<script>
+    // 语言切换处理
+    document.getElementById('languageSelect').addEventListener('change', function () {
+        var selectedLanguage = this.value;
+        window.location.href = 'privacy.html?language=' + selectedLanguage;
+    });
+</script>
+
+</html>
