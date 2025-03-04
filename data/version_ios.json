@@ -1,16 +1,16 @@
 {
     "code": 1,
     "data": {
-        "current": "",
-        "newVersion": "1.0.0",
+        "current": "1.0.0",
+        "newVersion": "1.0.1",
         "activation": [
         ],
-        "en": "",
-        "ar": "",
-        "zh-Hans": "",
-        "fr": "",
-        "ru": "",
-        "es": ""
+        "en": "The new version adds a game guide and fixes known issues.",
+        "ar": "تضيف النسخة الجديدة ميزات اللعبة وتصلح المشكلات المعروفة.",
+        "zh-Hans": "新版本增加了游戏指南，修复已知问题。",
+        "fr": "la nouvelle version ajoute des fonctionnalités de jeu et corrige les problèmes connus.",
+        "ru": "В новой версии добавлены игровые функции и исправлены известные проблемы.",
+        "es": "La nueva versión agrega características del juego y corrige problemas conocidos."
     },
     "msg": "ok"
 }
