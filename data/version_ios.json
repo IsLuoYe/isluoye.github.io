@@ -1,10 +1,9 @@
 {
     "code": 1,
     "data": {
-        "current": "1.0.1",
-        "newVersion": "1.0.2",
+        "current": "1.0.2",
+        "newVersion": "",
         "activation": [
-            "1.0.0"
         ],
         "en": "The new version has been updated:\n1. Added game guide.\n2. Optimized the game perspective for two-player games.\n3. Fixed known issues.",
         "ar": "تم تحديث الإصدار الجديد:\n1. تمت إضافة دليل اللعبة.\n2. تم تحسين منظور اللعبة للألعاب التي يشارك فيها لاعبان.\n3. تم إصلاح المشكلات المعروفة.",
