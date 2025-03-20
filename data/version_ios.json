@@ -2,7 +2,7 @@
     "code": 1,
     "data": {
         "current": "1.0.2",
-        "newVersion": "",
+        "newVersion": "1.1.0",
         "activation": [
         ],
         "en": "The new version has been updated:\n1. Added game guide.\n2. Optimized the game perspective for two-player games.\n3. Fixed known issues.",
