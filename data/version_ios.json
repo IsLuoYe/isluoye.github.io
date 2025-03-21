@@ -1,16 +1,17 @@
 {
     "code": 1,
     "data": {
-        "current": "1.0.2",
-        "newVersion": "1.1.0",
+        "current": "1.1.0",
+        "newVersion": "",
         "activation": [
+            "1.0.2"
         ],
-        "en": "The new version has been updated:\n1. Added game guide.\n2. Optimized the game perspective for two-player games.\n3. Fixed known issues.",
-        "ar": "تم تحديث الإصدار الجديد:\n1. تمت إضافة دليل اللعبة.\n2. تم تحسين منظور اللعبة للألعاب التي يشارك فيها لاعبان.\n3. تم إصلاح المشكلات المعروفة.",
-        "zh-Hans": "新版本更新了：\n1、增加了游戏指南。\n2、双人游戏优化了游戏视角。\n3、修复已知问题。",
-        "fr": "La nouvelle version a été mise à jour :\n1. Ajout d'un guide de jeu.\n2. Optimisation de la perspective de jeu pour les parties à deux joueurs.\n3. Correction de problèmes connus.",
-        "ru": "Новая версия обновлена:\n1. Добавлено руководство по игре.\n2. Оптимизирована игровая перспектива для игр с двумя игроками.\n3. Исправлены известные проблемы.",
-        "es": "La nueva versión se ha actualizado:\n1. Se ha añadido una guía del juego.\n2. Se ha optimizado la perspectiva del juego para partidas de dos jugadores.\n3. Se han corregido problemas conocidos."
+        "en": "The new version has been updated:\n1. Added a new mini-game: Black White Battle.\n2. Optimized some game UI.\n3. Fixed known issues.",
+        "ar": "تم تحديث الإصدار الجديد:\n1. إضافة لعبة صغيرة جديدة: معركة الأبيض والأسود.\n2. تحسين بعض واجهة المستخدم.\n3. إصلاح بعض المشاكل المعروفة.",
+        "zh-Hans": "新版本更新了：\n1、新增小游戏：黑白之战。\n2、优化部分游戏UI。\n3、修复已知问题。",
+        "fr": "La nouvelle version a été mise à jour :\n1. Ajout d'un nouveau mini-jeu : Black White Battle.\n2. Optimisation de certaines interfaces de jeu.\n3. Correction de problèmes connus.",
+        "ru": "Новая версия обновлена:\n1. Добавлена ​​новая мини-игра: Black White Battle.\n2. Оптимизированы некоторые элементы игрового интерфейса.\n3. Исправлены известные проблемы.",
+        "es": "La nueva versión se ha actualizado:\n1. Se añadió un nuevo minijuego: Batalla Blanco y Negro.\n2. Se optimizó la interfaz del juego.\n3. Se solucionaron problemas conocidos."
     },
     "msg": "ok"
 }
