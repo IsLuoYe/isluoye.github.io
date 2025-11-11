@@ -1,17 +1,18 @@
 {
     "code": 1,
     "data": {
-        "current": "1.4.2",
-        "newVersion": "1.4.3",
+        "current": "1.4.3",
+        "newVersion": "",
         "activation": [
-            "1.4.1"
+            "1.4.1",
+            "1.4.2"
         ],
-        "en": "This update includes:\n1. A new game: \"Fruit Cards\".\n2. Optimized gameplay logic in \"Fruit Supermarket\".\n3. All mini-games have been unlocked.",
-        "ar": "يتضمن هذا التحديث:\n1. إضافة لعبة جديدة: \"بطاقات الفاكهة\".\n2. تحسين منطق اللعب في \"سوق الفاكهة\".\n3. تم فتح جميع الألعاب المصغرة.",
-        "zh-Hans": "新版本更新了：\n1、新增游戏“水果卡片”。\n2、优化“水果超市”部分游戏逻辑。\n3、小游戏全部解锁",
-        "fr": "Cette mise à jour comprend :\n1. Un nouveau jeu : \"Cartes de fruits\".\n2. Optimisation de la logique de jeu dans \"Supermarché de fruits\".\n3. Tous les mini-jeux ont été débloqués.",
-        "ru": "В этом обновлении:\n1. Добавлена новая игра: \"Фруктовые карточки\".\n2. Оптимизирована логика игрового процесса в \"Фруктовом супермаркете\".\n3. Все мини‑игры разблокированы.",
-        "es": "Esta actualización incluye:\n1. Un nuevo juego: \"Cartas de fruta\".\n2. Se ha optimizado la lógica de juego en \"Supermercado de frutas\".\n3. Todos los minijuegos han sido desbloqueados."
+        "en": "This update includes:\n1. The mini-game \"Merge 2048\" has received UI and gameplay upgrades.\n2. Optimizations to some UI elements and game logic.",
+        "ar": "يتضمن هذا التحديث:\n1. تم ترقية واجهة المستخدم وطريقة اللعب للعبة المصغرة \"دمج 2048\".\n2. تحسينات في بعض عناصر واجهة المستخدم ومنطق اللعبة.",
+        "zh-Hans": "新版本更新了：\n1、小游戏“合并2048”进行UI和玩法升级。\n2、优化部分UI和游戏逻辑。",
+        "fr": "Cette mise à jour comprend :\n1. Mise à niveau de l'interface et du gameplay du mini-jeu « Merge 2048 ».\n2. Optimisations de certaines parties de l'interface et de la logique de jeu.",
+        "ru": "В этом обновлении:\n1. У мини‑игры «Merge 2048» обновлён интерфейс и игровой процесс.\n2. Оптимизация некоторых элементов интерфейса и игровой логики.",
+        "es": "Esta actualización incluye:\n1. Actualización de la interfaz y la jugabilidad del mini-juego \"Merge 2048\".\n2. Optimización de algunas partes de la interfaz y de la lógica del juego."
     },
     "msg": "ok"
 }
