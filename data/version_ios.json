@@ -2,7 +2,7 @@
     "code": 1,
     "data": {
         "current": "1.4.3",
-        "newVersion": "",
+        "newVersion": "1.5.0",
         "activation": [
             "1.4.1",
             "1.4.2"
