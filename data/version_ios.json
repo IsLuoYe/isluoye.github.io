@@ -1,18 +1,18 @@
 {
     "code": 1,
     "data": {
-        "current": "1.4.3",
-        "newVersion": "1.5.0",
-        "activation": [
-            "1.4.1",
-            "1.4.2"
-        ],
-        "en": "This update includes:\n1. The mini-game \"Merge 2048\" has received UI and gameplay upgrades.\n2. Optimizations to some UI elements and game logic.",
-        "ar": "يتضمن هذا التحديث:\n1. تم ترقية واجهة المستخدم وطريقة اللعب للعبة المصغرة \"دمج 2048\".\n2. تحسينات في بعض عناصر واجهة المستخدم ومنطق اللعبة.",
-        "zh-Hans": "新版本更新了：\n1、小游戏“合并2048”进行UI和玩法升级。\n2、优化部分UI和游戏逻辑。",
-        "fr": "Cette mise à jour comprend :\n1. Mise à niveau de l'interface et du gameplay du mini-jeu « Merge 2048 ».\n2. Optimisations de certaines parties de l'interface et de la logique de jeu.",
-        "ru": "В этом обновлении:\n1. У мини‑игры «Merge 2048» обновлён интерфейс и игровой процесс.\n2. Оптимизация некоторых элементов интерфейса и игровой логики.",
-        "es": "Esta actualización incluye:\n1. Actualización de la interfaz y la jugabilidad del mini-juego \"Merge 2048\".\n2. Optimización de algunas partes de la interfaz y de la lógica del juego."
+        "current": "1.5.0",
+        "newVersion": "",
+        "activation": [],
+        "en": "This update includes:\n1. Major upgrades to the UI and art.\n2. Upgrades to some gameplay features.\n3. Support for more languages.",
+        "ar": "يتضمن هذا التحديث:\n1. ترقيات كبيرة في واجهة المستخدم والرسومات.\n2. ترقية لبعض ميزات طريقة اللعب.\n3. دعم لمزيد من اللغات.",
+        "zh-Hans": "新版本更新了：\n1、UI和美术进行了重大升级。\n2、部分游戏玩法进行了升级。\n3、支持更多的语言。",
+        "zh-Hant": "新版本更新了：\n1、UI和美術進行了重大升級。\n2、部分遊戲玩法進行了升級。\n3、支援更多的語言。",
+        "fr": "Cette mise à jour comprend :\n1. Importantes améliorations de l'interface et des visuels.\n2. Améliorations de certaines mécaniques de jeu.\n3. Prise en charge de davantage de langues.",
+        "ja": "このアップデートには以下が含まれます：\n1. UIとアートが大幅に強化されました。\n2. 一部のゲームプレイ機能がアップグレードされました。\n3. より多くの言語をサポートします。",
+        "ko": "이번 업데이트에는 다음이 포함됩니다:\n1. UI 및 그래픽이 크게 업그레이드되었습니다.\n2. 일부 게임 플레이 기능이 향상되었습니다.\n3. 더 많은 언어를 지원합니다.",
+        "ru": "В этом обновлении:\n1. Значительные улучшения интерфейса и графики.\n2. Улучшения некоторых игровых механик.\n3. Поддержка большего количества языков.",
+        "es": "Esta actualización incluye:\n1. Importantes mejoras en la interfaz y los gráficos.\n2. Mejoras en algunas mecánicas de juego.\n3. Compatibilidad con más idiomas."
     },
     "msg": "ok"
 }
