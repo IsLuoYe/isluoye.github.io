@@ -146,7 +146,7 @@ xandr.com, 13799, RESELLER
 xandr.com, 15840, RESELLER
 
 # Liftoff Monetize
-vungle.com,[yourVunglePublisherAccountID],DIRECT,c107d686becd2d77
+vungle.com,68a2dc27ea56f62fad3dc249,DIRECT,c107d686becd2d77
 33across.com,001Pg0000197KcKIAU,RESELLER,bbea06d9c4d2853c
 Contextweb.com,562852,RESELLER,89ff185a4c4e857c
 Media.net,8CU12AQ1Y,RESELLER
